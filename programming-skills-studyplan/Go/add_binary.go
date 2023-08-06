@@ -1,5 +1,10 @@
 package main
 
+/*
+Given two binary strings a and b, return their sum as a binary string.
+https://leetcode.com/problems/add-binary/?envType=study-plan-v2&envId=programming-skills
+*/
+
 func addBinary(a string, b string) string {
 	aright, bright := len(a)-1, len(b)-1
 	carry := byte(0)
